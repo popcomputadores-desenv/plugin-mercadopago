@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/popcomputadores-desenv/px-hybrid"
+    "url": "git+https://github.com/popcomputadores-desenv/plugin-mercadopago"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -27,9 +27,9 @@
   "author": "popcomputadores-desenv",
   "license": "MIT License, see LICENSE.md for details",
   "bugs": {
-    "url": "https://github.com/popcomputadores-desenv/px-hybrid/issues"
+    "url": "https://github.com/popcomputadores-desenv/plugin-mercadopago/issues"
   },
-  "homepage": "https://github.com/popcomputadores-desenv/px-hybrid#readme",
+  "homepage": "https://github.com/popcomputadores-desenv/plugin-mercadopago#readme",
   "dependencies": {
     "xcode": "^1.0.0"
   },
