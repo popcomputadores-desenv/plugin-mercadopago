@@ -11,7 +11,7 @@ Primeiramente, instale o plugin do MercadoPago no config.xml com o comando abaix
 
 Também é possível instalar via url diretamente no repositório ( instável, usada somente para testes de implantação )
 
-    <gap:plugin spec="https://github.com/popcomputadores-desenv/px-hybrid.git#plugin" source="git"/>
+    <gap:plugin spec="https://github.com/popcomputadores-desenv/px-hybrid.git" source="git"/>
 
 Se você tiver problemas com a versão do iOS, consulte [aqui](https://github.com/mercadopago/px-hybrid/wiki/Using-the-plugin-with-iOS-Guide).
 
