@@ -1,0 +1,39 @@
+{
+  "name": "mercadopago-plugin-kmrs",
+  "version": "1.1.15",
+  "description": "Fork do Plugin Mercado Pago com adaptações para o sistema KMRS",
+  "cordova": {
+    "id": "com.mercadopago.plugin.cordova.sdk",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/popcomputadores-desenv/px-hybrid"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "popcomputadores-desenv",
+  "license": "MIT License, see LICENSE.md for details",
+  "bugs": {
+    "url": "https://github.com/popcomputadores-desenv/px-hybrid/issues"
+  },
+  "homepage": "https://github.com/popcomputadores-desenv/px-hybrid#readme",
+  "dependencies": {
+    "xcode": "^1.0.0"
+  },
+  "devDependencies": {
+    "xcode": "^1.0.0"
+  }
+}

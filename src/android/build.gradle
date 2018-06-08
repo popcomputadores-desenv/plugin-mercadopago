@@ -1,0 +1,22 @@
+
+repositories {
+    jcenter()
+    mavenCentral()
+    maven {
+            url 'https://dl.bintray.com/mreverter/maven/'
+    }
+}
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        def requested = details.requested
+        if (requested.group == 'com.android.support') {
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion '25.3.0'
+            }
+        }
+    }
+}
+dependencies {
+    compile 'com.mercadopago:connect:1.0.8'
+    compile ('com.mercadopago:sdk:taxi-ba-test4@aar') { transitive = true }
+}
